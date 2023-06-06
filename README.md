@@ -41,6 +41,5 @@ docker run fasttransform
 
 
 ## Полезные источники
-Статья на хабре о преобразовании Фурье https://habr.com/ru/articles/196374/
-
-Доходчивое объяснение схемы Кули-Тьюки и не только https://algorithmica.org/ru/fft
+1. Статья на хабре о преобразовании Фурье https://habr.com/ru/articles/196374/
+2. Доходчивое объяснение схемы Кули-Тьюки и не только https://algorithmica.org/ru/fft
