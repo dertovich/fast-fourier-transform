@@ -38,7 +38,10 @@ docker run fasttransform
 
 
 ## Использование
+Для запуска проекта со своим файлом данных нужно исправить 11 строку в Dokerfile
+![image](https://github.com/dertovich/fast-fourier-transform/assets/86295099/81ff2127-861f-4524-94dc-41d4d3ee1e5b)
 
+Достаточно указать свой путь до файла или исправить файл example/example_2.json
 
 ## Полезные источники
 1. Статья на хабре о преобразовании Фурье https://habr.com/ru/articles/196374/
