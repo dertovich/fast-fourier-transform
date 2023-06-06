@@ -5,6 +5,10 @@
 #include <complex>
 #include <iostream>
 #include <stdexcept>
+#include <fstream>
+#include <nlohmann/json.hpp>
+
+using json = nlohmann::json;
 
 #define PI 3.141592653589793238462643383279
 
@@ -20,7 +24,7 @@ public:
     std::vector<std::complex<double>> forwardTransform(const std::vector<std::complex<double>>& input);
     std::vector<std::complex<double>> inverseTransform(const std::vector<std::complex<double>>& input);
 
-    // 
+    // Calculate error between input|output data
     double calculateError(const std::vector<std::complex<double>>& input, const std::vector<std::complex<double>>& output);
 };
 

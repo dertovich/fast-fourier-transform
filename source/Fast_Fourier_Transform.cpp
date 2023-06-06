@@ -18,7 +18,7 @@ void FastFourierTransform::generateTrigTable() {
 
 FastFourierTransform::FastFourierTransform(int length) {
     if (length % 2 != 0 && length % 3 != 0 && length % 5 != 0) {
-        throw std::invalid_argument("Длина преобразования должна быть кратной 2, 3 и 5.");
+        throw std::invalid_argument("The length of the conversion must be a multiple of 2, 3 and 5.");
     }
 
     generateTrigTable();
